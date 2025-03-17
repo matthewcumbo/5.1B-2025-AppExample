@@ -1,0 +1,60 @@
+div{
+    background-color: #cfcfcf;
+    border: #000 solid 1px;
+    margin: 20px;
+    padding:10px; 
+}
+
+.important{
+    background-color: #b20a0a;
+    color: #ebebeb;
+}
+
+.flexBox{
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.menu{
+    margin:0;
+    padding:0;
+    background-color: #1d5316;
+    border: none;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.menu img{
+    filter:invert(100%);
+    width: 30px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.menu ul li{
+    margin-left: 20px;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.menu ul li a:hover{
+    color:#988029;
+}
